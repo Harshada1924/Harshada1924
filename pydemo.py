@@ -15,7 +15,7 @@
 #print(f"{number} : last digit is {number%10}")
 
 #write a program to check if a person is eligible for discount the criteria must be a student and age must be below 21
-role=input("Enter Role(student/teacher) : ")
+role=input("Enter Role(student/teacher) : ")#demo
 age=int(input("Enter age : "))
 print(f"Eligible : {role=="student" and age<21} ") #harshada
 
