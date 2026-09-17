@@ -40,3 +40,21 @@ def fact(n):
     
     
 print(fact(5))
+
+def square(n):
+    return n*n
+print(square(5))
+
+sq=lambda n:n*n
+print(sq(10))
+
+add=lambda a,b:a+b
+print(add(12,4))
+
+
+def fun(n):
+    if n==0:
+        return
+    fun(n-1)
+    print(n)
+fun(3)
